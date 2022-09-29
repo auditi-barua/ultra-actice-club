@@ -1,0 +1,12 @@
+
+.activity h1{
+    padding-right: 190px;
+}
+.activities-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;  
+  
+}
+.information-container{
+  background-color: darkseagreen;
+}

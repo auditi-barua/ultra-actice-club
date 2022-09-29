@@ -1,0 +1,27 @@
+.header-part{
+    height: 80px;
+    background-color: #1c1c1c;
+    display: flex;
+   padding-left: 140px;
+   padding-right: 100px;
+}
+.header-part h1{
+    color: #fff;
+    font-size: 18px;
+  
+}
+.header-part img{
+    width: 10%;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 280px;
+    
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+}
