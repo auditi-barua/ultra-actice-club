@@ -2,11 +2,16 @@
 .activity h1{
     padding-right: 190px;
 }
-.activities-container{
+.activity{
     display: grid;
-    grid-template-columns: 4fr 1fr;  
+    grid-template-columns: 4fr 1fr; 
+    background-color: darkgray; 
   
 }
-.information-container{
-  background-color: darkseagreen;
+
+.activities-container h2{
+    font-size: 15px;
+}
+.activities-container p{
+    font-size: 10px;
 }

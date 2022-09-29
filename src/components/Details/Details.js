@@ -1,13 +1,24 @@
 import React from 'react';
 import './Details.css'
 
-const Details = (props) => {
-    console.log(props)
+const Details = (detail) => {
+    //console.log(detail);
+    const {name, img, details, age,time} = detail;
+
     return (
-        <div className=''>
-            <h1>Total Time</h1>
-            <p>Exercise Time:</p>
-            <p>Break Time: </p>
+        <div className='details'>
+          
+          <img src={img} alt=''/>
+          <div className='info'>
+            <p>{name}</p>
+            <p>{details}</p>
+            <p><small>For Age: {age}</small></p>
+            <p><small>Time required: {time}</small></p>
+        </div>
+        <button  className='btn-cart'>
+            <p>Added to list</p>
+         </button>
+           
         </div>
     );
 };

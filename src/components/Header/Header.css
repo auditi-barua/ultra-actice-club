@@ -1,27 +1,30 @@
 .header-part{
     height: 80px;
-    background-color: #1c1c1c;
     display: flex;
-   padding-left: 140px;
-   padding-right: 100px;
+   padding-left: 150px;
+   padding-right: 150px;
 }
 .header-part h1{
-    color: #fff;
-    font-size: 18px;
-  
+    color: darkslategray;
+    font-size: 30px;
+    font-weight:600 ;
+}
+.header-part span{
+    color: green;
 }
 .header-part img{
     width: 10%;
 
 }
-.nav {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 280px;
-    
+.navbar{
+    margin-top: 50px;
 }
 .nav a{
-    color: #fff;
+    color: darkslategray;
     text-decoration: none;
+    font-size: 20px;
     margin-left: 40px;
+    
+    
+   
 }
