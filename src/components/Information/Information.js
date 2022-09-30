@@ -1,12 +1,16 @@
 import React from 'react';
 
-const Information = () => {
+const Information = (props) => {
+    const {information} = props;
+    console.log(props);
 
     
     return (
-        <div className='information-part'>
+        <div className='information'>
+         
+         
+      </div>
         
-        </div>
     );
 };
 

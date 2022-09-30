@@ -1,13 +1,17 @@
 .header-part{
     height: 80px;
     display: flex;
-   padding-left: 150px;
-   padding-right: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 60px;
+    margin-right: 150px;
 }
 .header-part h1{
     color: darkslategray;
     font-size: 30px;
     font-weight:600 ;
+    padding-right: 290px;
 }
 .header-part span{
     color: green;
@@ -16,15 +20,10 @@
     width: 10%;
 
 }
-.navbar{
-    margin-top: 50px;
-}
-.nav a{
-    color: darkslategray;
+.header-part a{
     text-decoration: none;
-    font-size: 20px;
-    margin-left: 40px;
-    
-    
-   
+    justify-content: space-between;
+    margin-left: 20px;
+    color: darkslategray;
 }
+

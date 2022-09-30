@@ -10,7 +10,7 @@ const Activity = (props) => {
  useEffect( () =>{
   fetch('information.json')
   .then(res => res.json())
-  .then(data => setDetails(data));
+  .then(data => setInformation(data));
 
  }, [])
  
@@ -19,26 +19,18 @@ const Activity = (props) => {
         <div className='activity'>
           <h1>Select today's activities</h1>
           <div className='activities-container'>
-            <div className='information-container'>
-               <h2>Auditi </h2>
-               <p>Chattogram</p>
-               <div>
-                <p>50kg</p> 
-              </div>
-              <h4>Exercise Details: </h4>
-              <p>Exercise Time</p>
-              <p>Break Time</p>
-              
+            <div className='information-container'> 
+
               {
-                  information.map(information=><Information key={information.id}
-                    information={information}
-                    ></Information>)
+                  details.map(detail=><Details key={detail.id}
+                    detail={detail}
+                    ></Details>)
               }
              </div>
 
           </div>
           <div>
-            <Details detail={details}></Details>
+            <Information information={information}></Information>
           </div>
         </div>
       
