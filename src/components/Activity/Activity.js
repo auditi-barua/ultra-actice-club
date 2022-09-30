@@ -10,26 +10,27 @@ const Activity = (props) => {
  useEffect( () =>{
   fetch('information.json')
   .then(res => res.json())
-  .then(data => setInformation(data));
+  .then(data => setDetails(data));
 
- }, [])
+ }, []);
+
+ const handleAddToDetails = (details) =>{
+  console.log(details);
+  const newInformation =[...details,information];
+  setInformation(newInformation);
  
-   
-    return (
-        <div className='activity'>
-          <h1>Select today's activities</h1>
+ }   
+    return ( 
           <div className='activities-container'>
-            <div className='information-container'> 
-
+            <div className='details-container'> 
               {
                   details.map(detail=><Details key={detail.id}
                     detail={detail}
+                    handleAddToDetails={handleAddToDetails}
                     ></Details>)
               }
              </div>
-
-          </div>
-          <div>
+             <div className='information'>
             <Information information={information}></Information>
           </div>
         </div>

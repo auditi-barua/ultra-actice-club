@@ -8,7 +8,7 @@
     margin-right: 150px;
 }
 .header-part h1{
-    color: darkslategray;
+    color: darkgrey;
     font-size: 30px;
     font-weight:600 ;
     padding-right: 290px;
@@ -22,7 +22,7 @@
 }
 .header-part a{
     text-decoration: none;
-    justify-content: space-between;
+    justify-content: end;
     margin-left: 20px;
     color: darkslategray;
 }

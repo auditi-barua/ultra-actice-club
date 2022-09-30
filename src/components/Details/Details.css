@@ -1,0 +1,36 @@
+.details{
+    width: 250px;
+    height: 480px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 2px;
+    position: relative;
+}
+.details img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin: 5px;
+    bottom: 10;
+}
+.details-name h2{
+    font-size: 25px;
+    text-align: start;
+}
+.info p{
+    font-size: 15px;
+}
+.btn{
+    width: 40%;
+    background-color: #FFE0B3;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+   
+    bottom: 0;
+    margin-right: 50px;
+   
+}
+
+.btn:hover{
+    background-color: orange;
+}

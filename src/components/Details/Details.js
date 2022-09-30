@@ -1,20 +1,20 @@
 import React from 'react';
 import './Details.css'
 
-const Details = (detail) => {
+const Details = ({detail,handleAddToDetails}) => {
     const {name, img, details, age,time} = detail;
    
 
     return (
         <div className='details'>
-           <img src={img} alt=''/>
+           <img src={img} alt=''></img>
         <div className='info'>
-          <p>{name}</p>
-          <p>{details}</p>
-          <p><small>For Age: {age}</small></p>
-          <p><small>Time required: {time}</small></p>
+          <h2 className='details-name'>{name}</h2>
+          <p>{details.slice(0,150)}</p>
+          <p>For Age: {age}</p>
+          <p>Time Required: {time}</p>
       </div>
-      <button  className='btn-cart'>
+      <button onClick={() => handleAddToDetails(details)} className='btn'>
           <p>Added to list</p>
        </button>
         </div>

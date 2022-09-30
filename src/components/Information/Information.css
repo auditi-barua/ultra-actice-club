@@ -1,0 +1,9 @@
+.info-part{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.info-part p{
+    top: 50%;
+}
