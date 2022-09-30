@@ -10,7 +10,7 @@ const Details = ({detail,handleAddToDetails}) => {
            <img src={img} alt=''></img>
         <div className='info'>
           <h2 className='details-name'>{name}</h2>
-          <p>{details.slice(0,150)}</p>
+          <p>{details.slice(0,100)}..</p>
           <p>For Age: {age}</p>
           <p>Time Required: {time}</p>
       </div>

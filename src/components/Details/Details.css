@@ -1,10 +1,11 @@
 .details{
-    width: 250px;
-    height: 480px;
+    width: 240px;
+    height: 450px;
     border: 1px solid #000;
     border-radius: 5px;
     padding: 2px;
     position: relative;
+    background-color: dimgray;
 }
 .details img{
     width: 150px;
@@ -13,20 +14,35 @@
     margin: 5px;
     bottom: 10;
 }
-.details-name h2{
+.details-name {
     font-size: 25px;
+    text-align: left;
+    margin-left: 15px;
+}
+.info p{
     text-align: start;
+    margin-left: 15px;
+}
+.info{
+    margin: 0 5px;
 }
 .info p{
     font-size: 15px;
 }
+.details-name{
+    font-family: fantasy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 9px;
+}
 .btn{
-    width: 40%;
+    width: 100%;
     background-color: #FFE0B3;
     border: none;
-    border-radius: 0px 0px 8px 8px;
-   
-    bottom: 0;
+    border-radius: 8px 8px 8px 8px;  
+    bottom:0;
     margin-right: 50px;
    
 }

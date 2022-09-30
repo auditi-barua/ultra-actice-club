@@ -4,14 +4,14 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 120px;
-    padding-right: 60px;
+    padding-right: 180px;
     margin-right: 150px;
 }
 .header-part h1{
     color: darkgrey;
     font-size: 30px;
     font-weight:600 ;
-    padding-right: 290px;
+    padding-right: 420px;
 }
 .header-part span{
     color: green;
@@ -20,10 +20,5 @@
     width: 10%;
 
 }
-.header-part a{
-    text-decoration: none;
-    justify-content: end;
-    margin-left: 20px;
-    color: darkslategray;
-}
+
 
