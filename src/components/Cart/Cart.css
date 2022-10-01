@@ -1,0 +1,79 @@
+.user{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.user img{
+    width: 60px;
+}
+.user_info h4,p{
+    margin: 0;
+}
+.info{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    margin: 0 10px;
+    padding: 0 10px;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.single_info{
+    padding: 5px 10px;
+    text-align: center;
+}
+.single_info h4,p{
+    margin: 0;
+}
+.text{
+    display: flex;
+    align-items: flex-end;
+}
+.break_container{
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.break_time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.break_time p{
+    background: #f1f1f7;
+    border-radius: 100%;
+    width: 40px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.break_time p:hover{
+    background: rgb(69, 170, 236);
+    color: white;
+    
+}
+.details_container{
+    padding: 15px;
+}
+.time_details{
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.time_container{
+    margin-bottom: 50px;
+}
+.btn-primary{
+    width: 100%;
+}

@@ -1,45 +1,46 @@
 [
     {
-        "name": "Astanga Vinyasa Yoga",
-        "details": "In vinyasa classes, the movement is coordinated with your breath and movement to flow from one pose to another. Vinyasa styles can vary depending on the teacher, and there can be many types of poses in different sequences.",
-        "for-age": "20-25",
-        "time-required": 30,
-        "img": "https://st3.depositphotos.com/4299713/17762/v/600/depositphotos_177620046-stock-video-yoga-woman-doing-sun-salutation.jpg"
+        "id": 1,
+        "name": "Vinyasa Yoga",
+        "for_age": "20-35",
+        "time_required": 30,
+        "img": "./images/img-1.jpg"
     },
     {
+        "id": 2,
         "name": "Hatha Yoga",
-        "details": "Hatha yoga classes are best for beginners since they are usually paced slower than other yoga styles. Hatha classes today are a classic approach to breathing and exercises. If you are brand-new to yoga, hatha yoga is a great entry point to the practice.",
-        "for-age": "20-25",
-        "time-required": 40,
-        "img": "https://yogapractice.com/wp-content/uploads/2019/06/Hatha-Yoga-Poses-Asanas-Sequences.jpg"
+        
+        "for_age": "20-35",
+        "time_required": 40,
+        "img": "./images/img-2.jpg"
     },
     {
+        "id": 3,
         "name": "Iyengar yoga",
-        "details": "Generally, poses are held for a long time while adjusting the minutiae of the pose. Iyengar relies heavily on props to help students perfect their form and go deeper into poses in a safe manner. Although you won't jump around, you will definitely get a workout and feel incredibly open and relaxed after an Iyengar class. This style is really great for people with injuries who need to work slowly and methodically.",
-        "for-age": "20-25",
-        "time-required": 40,
-        "img": "https://i0.wp.com/desayogi.com/wp-content/uploads/elementor/thumbs/Blog-eps29-paon2jw2pplnakl27qi70ok2hwnc73hgmlyv066v0o.jpeg"
+        "for_age": "20-25",
+        "time_required": 45,
+        "img": "./images/img-3.jpg"
     },
     {
+        "id": 4,
         "name": "Kundalini yoga",
-        "details": "These classes really work your core and breathing with fast-moving, invigorating postures and breath exercises. These classes are pretty intense and can involve chanting, mantra, and meditation.",
-        "for-age": "20-25",
-        "time-required": 40,
-        "img": "https://samarali.eu/wp-content/uploads/2022/06/Kundalini-yoga_5.jpg"
+        "for_age": "20-25",
+        "time_required": 25,
+        "img": "./images/img-4.jpg"
     },
     {
+        "id": 5,
         "name": "Bikram yoga",
-        "details": "The sequence includes a series of 26 basic postures, with each one performed twice. Many of these poses are focused on proper alignment. If you're interested in yoga with the heat turned up, look for studios that offer hot yoga classes.",
-        "for-age": "20-25",
-        "time-required": 40,
-        "img": "https://www.yogateket.com/image/original/standinheadtoknee.jpg"
+        "for_age": "20-25",
+        "time_required": 35,
+        "img": "./images/img-5.jpg"
     },
     {
+        "id": 6,
         "name": "Restorative yoga",
-        "details": "You spend more time in fewer postures throughout the class. Many of the poses are modified to be easier and more relaxing. Like Iyengar, many props are used and are placed just right such as blankets, bolsters, and eye pillows. All of the props are there to help you sink deeper into relaxation.",
-        "for-age": "20-25",
-        "time-required": 40,
-        "img": "https://experiencelife.lifetime.life/wp-content/uploads/2022/01/mar22-uyg-peaceful-practice.jpg"
+        "for_age": "20-25",
+        "time_required": 20,
+        "img": "./images/img-6.jpg"
     }
 
 ]
